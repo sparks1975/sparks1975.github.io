@@ -1,0 +1,83 @@
+[
+    {
+        "img": "img/gallery/dl.jpg",
+        "title": "DoctorLogic",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "link": "https://doctorlogic.com",
+        "link_label": "doctorlogic.com",
+        "alt_text": "DoctorLogic"
+    },
+    {
+        "img": "img/gallery/dl2.jpg",
+        "title": "DoctorLogic",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "link": "https://doctorlogic.com",
+        "link_label": "doctorlogic.com",
+        "alt_text": "DoctorLogic"
+    },
+    {
+        "img": "img/gallery/gn.jpg",
+        "title": "GN Exhibits +",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "link": "https://gnexhibitsplus.com/",
+        "link_label": "gnexhibitsplus.com",
+        "alt_text": "GN Exhibits +"
+    },
+    {
+        "img": "img/gallery/bhd.jpg",
+        "title": "The Brooklyn Hot Dog Company",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://brooklynhotdogcompany.com",
+        "link_label": "brooklynhotdogcompany.com",
+        "alt_text": "The Brooklyn Hot Dog Company"
+    },
+    {
+        "img": "img/gallery/bhd2.jpg",
+        "title": "The Brooklyn Hot Dog Company",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://brooklynhotdogcompany.com",
+        "link_label": "brooklynhotdogcompany.com",
+        "alt_text": "The Brooklyn Hot Dog Company"
+    },
+    {
+        "img": "img/gallery/schmear.jpg",
+        "title": "Schmear Market & Bakery",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://schmearmarket.com",
+        "link_label": "schmearmarket.com",
+        "alt_text": "Schmear Market & Bakery"
+    },
+    {
+        "img": "img/gallery/mulhollands.jpg",
+        "title": "Mulholland's",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://mulhollandsbklyn.com",
+        "link_label": "mulhollandsbklyn.com",
+        "alt_text": "Mulholland's"
+    },
+    {
+        "img": "img/gallery/albright.jpg",
+        "title": "Albright Plastic Surgery",
+        "role": "Design/Development",
+        "technology": "HTML, LESS, JS",
+        "link": "https://albrightplasticsurgery.com/",
+        "link_label": "albrightplasticsurgery.com/",
+        "alt_text": "Albright Plastic Surgery"
+    },
+    {
+        "img": "img/gallery/osl-cc.jpg",
+        "title": "Our Savior Lutheran Church",
+        "role": "Design/Branding",
+        "technology": "Adobe Creative Suite",
+        "link": "https://www.oslmckinney.org/",
+        "link_label": "oslmckinney.org",
+        "alt_text": "Our Savior Lutheran Church"
+    }
+]

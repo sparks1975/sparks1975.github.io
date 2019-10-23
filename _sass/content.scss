@@ -1,0 +1,120 @@
+
+
+.content-1 {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	position: relative;
+
+	@include tablet-min {
+		padding: 80px 20px 0;
+	}
+
+	p {
+		color: $white;
+		max-width: 650px;
+		text-align: center;
+	}
+}
+
+.content-2 {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 20px 0;
+	position: relative;
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		max-width: 800px;
+	}
+
+	&__item {
+		flex: 0 0 auto;
+		padding: 20px;
+
+		img {
+			width: 100%;
+			height: auto;
+			display: block;
+			min-width: 200px;
+			max-width: 250px;
+		}
+	}
+}
+
+.content-3 {
+	padding: 60px 20px 60px;
+	position: relative;
+
+	&__items {
+		@include grid;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	&__item {
+		position: relative;
+
+		&--1 {
+			grid-area: 1 / 1 / 2 / 13;
+			min-height: 200px;
+			display: flex;
+			align-items: center;
+
+			h2 {
+				text-align: left;
+			}
+		}
+
+		&--2 {
+			grid-area: 1 / 13 / 3 / 25;
+			background: url('/img/work/bhd-thumb.jpg') center top/cover no-repeat;
+			min-height: 400px;
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: $gradient-reverse;
+				opacity: .85;
+			}
+		}
+
+		&--3 {
+			grid-area: 2 / 1 / 4 / 13;
+			background: url('/img/work/schmear-thumb.jpg') center top/cover no-repeat;
+			min-height: 400px;
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: $gradient-reverse;
+				opacity: .85;
+			}
+		}
+
+		&--4 {
+			grid-area: 3 / 13 / 5 / 25;
+			background: url('/img/work/bhd-thumb.jpg') center center/cover no-repeat;
+			min-height: 400px;
+		}
+
+	}
+}

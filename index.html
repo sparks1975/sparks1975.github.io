@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="hero">
+	<div class="hero__wrapper">
+		<img src="img/hero-circles.svg" class="hero__img" alt="Pixel Chimp Design Company">
+	</div>
+</div>
+
+
+<div class="content-1">
+		<h2>Hello. I specialize in UI/UX Design & Implementation</h2>
+		<p>Highly skilled in the creation and execution of complex and innovative web experiences, contemporary marketing strategies and campaigns. Accustomed to performing in deadline-driven environments, consistently delivering projects on time and within budget.</p>
+</div>
+
+<div class="content-2">
+	<h3>Some folks responsible for the shirt on my back.</h3>
+	<div class="content-2__items">
+		<div class="content-2__item">
+			<img src="img/logos/bhd.svg" alt=" The Brooklyn Hot Dog Company">
+		</div>
+		<div class="content-2__item">
+			<img src="img/logos/dl.svg" alt="DoctorLogic">
+		</div>
+		<div class="content-2__item">
+			<img src="img/logos/schmear.svg" alt="Schmear Bakery & Market">
+		</div>
+		<div class="content-2__item">
+			<img src="img/logos/gs.svg" alt="golfswing.com">
+		</div>
+		<div class="content-2__item">
+			<img src="img/logos/stjohn.svg" alt="St. John Lutheran Church">
+		</div>
+		<div class="content-2__item">
+			<img src="img/logos/fah.svg" alt="Faith At Home">
+		</div>
+	</div>
+</div>
+
+<div class="gallery">
+	<h2>Recent Work</h2>
+	<div class="gallery__items">
+		{% for item in site.data.gallery %}
+		<a class="gallery__item" href="{{ item.img }}"
+			title="<ul><li><span>{{ item.title }}</span></li><li><span>Role:</span> {{ item.role }}</li><li><span>Technology:</span> {{ item.technology }}</li><li><span>URL:</span> <a href={{ item.link }} target=blank>{{ item.link_label }}</a></li></ul>"
+			alt="{{ item.alt_text }}" style="background: url('{{ item.img }}')">
+		</a>
+		{% endfor %}
+	</div>
+</div>
