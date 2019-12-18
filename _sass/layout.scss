@@ -28,10 +28,14 @@ h3 {
 	line-height: 1.1;
 }
 h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 	a,
 	a:visited {
 		text-decoration: none;
+	}
+
+	@include tablet-min {
+		font-size: 2.5em;
 	}
 }
 
