@@ -45,7 +45,7 @@ layout: default
 	<div class="gallery__items">
 		{% for item in site.data.gallery %}
 		<a class="gallery__item" href="{{ item.img }}"
-			title="<ul><li><span>{{ item.title }}</span></li><li><span>Role:</span> {{ item.role }}</li><li><span>Technology:</span> {{ item.technology }}</li><li><span>URL:</span> <a href={{ item.link }} target=blank>{{ item.link_label }}</a></li></ul>"
+			data-title="<ul><li><span>{{ item.title }}</span></li><li><span>Role:</span> {{ item.role }}</li><li><span>Technology:</span> {{ item.technology }}</li><li><span>URL:</span> <a href={{ item.link }} target=blank>{{ item.link_label }}</a></li></ul>"
 			alt="{{ item.alt_text }}" style="background: url('{{ item.img }}')">
 		</a>
 		{% endfor %}
