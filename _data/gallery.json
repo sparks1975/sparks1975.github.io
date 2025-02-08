@@ -27,13 +27,13 @@
         "alt_text": "Markup Framework"
     },
     {
-        "img": "img/gallery/h2bev.jpg",
-        "title": "H2 Bev",
-        "role": "Design/Development/Implementation",
-        "technology": "HTML, SCSS, JS, Shopify, Liquid, Shopify Custom Development",
-        "link": "https://h2bev.com",
-        "link_label": "h2bev.com",
-        "alt_text": "H2 Bev"
+        "img": "img/gallery/bhd.jpg",
+        "title": "The Brooklyn Hot Dog Company",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://brooklynhotdogcompany.com",
+        "link_label": "brooklynhotdogcompany.com",
+        "alt_text": "The Brooklyn Hot Dog Company"
     },
     {
         "img": "img/gallery/dsm.jpg",
@@ -48,19 +48,19 @@
         "img": "img/gallery/dl.jpg",
         "title": "DoctorLogic",
         "role": "Design/Development/Implementation",
-        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "technology": "HTML, SCSS, JS, HubL, HubSpot, Custom Theme Development",
         "link": "https://doctorlogic.com",
         "link_label": "doctorlogic.com",
         "alt_text": "DoctorLogic"
     },
     {
-        "img": "img/gallery/dl2.jpg",
-        "title": "DoctorLogic",
-        "role": "Design/Development/Implementation",
-        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
-        "link": "https://doctorlogic.com",
-        "link_label": "doctorlogic.com",
-        "alt_text": "DoctorLogic"
+        "img": "img/gallery/thematts.jpg",
+        "title": "The Matts",
+        "role": "Design/Branding/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid",
+        "link": "https://thematts.io",
+        "link_label": "thematts.io",
+        "alt_text": "The Matts"
     },
     {
         "img": "img/gallery/gn.jpg",
@@ -72,15 +72,6 @@
         "alt_text": "GN Exhibits +"
     },
     {
-        "img": "img/gallery/bhd.jpg",
-        "title": "The Brooklyn Hot Dog Company",
-        "role": "Development/Implementation",
-        "technology": "HTML, SCSS, Shopify, Liquid",
-        "link": "http://brooklynhotdogcompany.com",
-        "link_label": "brooklynhotdogcompany.com",
-        "alt_text": "The Brooklyn Hot Dog Company"
-    },
-    {
         "img": "img/gallery/bhd2.jpg",
         "title": "The Brooklyn Hot Dog Company",
         "role": "Development/Implementation",
@@ -88,23 +79,5 @@
         "link": "http://brooklynhotdogcompany.com",
         "link_label": "brooklynhotdogcompany.com",
         "alt_text": "The Brooklyn Hot Dog Company"
-    },
-    {
-        "img": "img/gallery/schmear.jpg",
-        "title": "Schmear Market & Bakery",
-        "role": "Development/Implementation",
-        "technology": "HTML, SCSS, Jekyll, Liquid",
-        "link": "http://schmearmarket.com",
-        "link_label": "schmearmarket.com",
-        "alt_text": "Schmear Market & Bakery"
-    },
-    {
-        "img": "img/gallery/albright.jpg",
-        "title": "Albright Plastic Surgery",
-        "role": "Design/Development",
-        "technology": "HTML, LESS, JS",
-        "link": "https://albrightplasticsurgery.com/",
-        "link_label": "albrightplasticsurgery.com/",
-        "alt_text": "Albright Plastic Surgery"
     }
 ]
