@@ -1,12 +1,10 @@
 .hero {
 	height: auto;
 	width: 100%;
-  overflow: hidden;
+  	overflow: hidden;
 	position: relative;
-
-	@include phone-wide-min {
-		height: 95vh;
-	}
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .hero__wrapper {
@@ -18,10 +16,10 @@
   padding: 0 20px;
   max-width: 1600px;
   margin: 0 auto;
+  justify-content: center;
 
 	@include phone-wide-min {
-		height: 95vh;
-		padding: 0 40px;
+		padding-block-start: 180px;
 	}
 }
 
@@ -32,29 +30,20 @@
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	order: 2;
-
-	@include tablet-wide-min {
-		flex: 0 0 50%;
-		align-items: flex-start;
-		order: 1;
-	}
 
 	h1 {
 		text-align: center;
 		width: 100%;
+		color: $color3;
+		margin: 0;
 
-		@include tablet-wide-min  {
-			text-align: left;
-		}
+
 	}
 
 	p {
 		text-align: center;
-
-		@include tablet-wide-min  {
-			text-align: left;
-		}
+		font-weight: 600;
+		font-size: clamp(16px, 2vw, 24px);
 	}
 }
 

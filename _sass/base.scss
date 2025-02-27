@@ -1,20 +1,20 @@
 $content-width: 1200px;
-$color1: #005C97;
-$color2: #363795;
-$color3: #58F9DA;
+$color1: #151a1f;
+$color2: #fffbff;
+$color3: #df854f;
 $light: #ebedee;
-$white: #fff;
+$white: #fffbff;
 $gray: #798081;
-$dark-gray: #494949;
+$dark-gray: #2c3640;
 $gradient: radial-gradient(#363795 40%, #005C97 100%);
 $gradient2: radial-gradient($gray 50%, $dark-gray 100%);
-$gradient-reverse: linear-gradient(-145deg, #363795, #005C97);
-$font-style: 'Montserrat', sans-serif;
+$gradient-reverse: linear-gradient(to right, #c9d6ff, #e2e2e2);
+$font-style: 'Proxima Nova', sans-serif;
 $font-color: #1e1e1e;
 $link-color: $color2;
 $link-hover-color: $light;
-$heading-font: 'Spinnaker', sans-serif;
-$heading-font-color: $white;
+$heading-font: 'thermal-variable', sans-serif;
+$heading-font-color: $dark-gray;
 
 *,
 *::before,

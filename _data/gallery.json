@@ -9,13 +9,13 @@
         "alt_text": "Carfluent"
     },
     {
-        "img": "img/gallery/htf.jpg",
-        "title": "Home Theater Forum",
+        "img": "img/gallery/dl.jpg",
+        "title": "DoctorLogic",
         "role": "Design/Development/Implementation",
-        "technology": "HTML, SCSS, PHP, WordPress, Custom Theme Development",
-        "link": "https://hometheaterforum.com",
-        "link_label": "hometheatreforum.com",
-        "alt_text": "Home Theater Forum"
+        "technology": "HTML, SCSS, JS, HubL, HubSpot, Custom Theme Development",
+        "link": "https://doctorlogic.com",
+        "link_label": "doctorlogic.com",
+        "alt_text": "DoctorLogic"
     },
     {
         "img": "img/gallery/markup.jpg",
@@ -36,42 +36,6 @@
         "alt_text": "The Brooklyn Hot Dog Company"
     },
     {
-        "img": "img/gallery/dsm.jpg",
-        "title": "Dynamic School of Music",
-        "role": "Design/Branding/Implementation/Squarespace/Custom Template Design",
-        "technology": "HTML, SCSS, JS",
-        "link": "https://www.dynamicschoolofmusic.com/",
-        "link_label": "dynamicschoolofmusic.com",
-        "alt_text": "Dynamic School of Music"
-    },
-    {
-        "img": "img/gallery/dl.jpg",
-        "title": "DoctorLogic",
-        "role": "Design/Development/Implementation",
-        "technology": "HTML, SCSS, JS, HubL, HubSpot, Custom Theme Development",
-        "link": "https://doctorlogic.com",
-        "link_label": "doctorlogic.com",
-        "alt_text": "DoctorLogic"
-    },
-    {
-        "img": "img/gallery/thematts.jpg",
-        "title": "The Matts",
-        "role": "Design/Branding/Development/Implementation",
-        "technology": "HTML, SCSS, JS, Jekyll, Liquid",
-        "link": "https://thematts.io",
-        "link_label": "thematts.io",
-        "alt_text": "The Matts"
-    },
-    {
-        "img": "img/gallery/gn.jpg",
-        "title": "GN Exhibits +",
-        "role": "Development/Implementation",
-        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
-        "link": "https://gnexhibitsplus.com/",
-        "link_label": "gnexhibitsplus.com",
-        "alt_text": "GN Exhibits +"
-    },
-    {
         "img": "img/gallery/bhd2.jpg",
         "title": "The Brooklyn Hot Dog Company",
         "role": "Development/Implementation",
@@ -79,5 +43,14 @@
         "link": "http://brooklynhotdogcompany.com",
         "link_label": "brooklynhotdogcompany.com",
         "alt_text": "The Brooklyn Hot Dog Company"
+    },
+    {
+        "img": "img/gallery/dsm.jpg",
+        "title": "Dynamic School of Music",
+        "role": "Design/Branding/Implementation/Squarespace/Custom Template Design",
+        "technology": "HTML, SCSS, JS",
+        "link": "https://www.dynamicschoolofmusic.com/",
+        "link_label": "dynamicschoolofmusic.com",
+        "alt_text": "Dynamic School of Music"
     }
 ]

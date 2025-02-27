@@ -1,35 +1,64 @@
 
 .gallery {
 	position: relative;
-	padding: 60px 10% 60px;
+	padding: 20px 24px 84px;
 	display: flex;
 	width: 100%;
 	flex-direction: column;
 	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
 
 	h2 {
 		text-align: center;
+		width: 100%;
+		max-width: unset;
 	}
 
 	&__items {
 		@include grid;
-		grid-gap: 10px;
+		grid-column-gap: 10px;
+		grid-row-gap: 24px;
 		min-height: 600px;
 		width: 100%;
+
+		@include tablet-wide-min {
+		  gap: 48px;
+		}
+		
 	}
 
 	&__item {
-		min-height: 400px;
+		min-height: 600px;
 		grid-column: auto / span 24;
 		grid-row: auto / span 1;
 		background-size: cover !important;
 		background-position: center top;
 		background-repeat: no-repeat;
+		border-radius: 16px;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		transition: box-shadow .3s;
 
 		@include tablet-min {
-				grid-column: auto / span 8;
+				grid-column: auto / span 12;
 				grid-row: auto / span 1;
+		}
+
+		// &:nth-of-type(even) {
+
+		// 	@include tablet-min {
+		// 	  margin-block: 64px -64px;
+		// 	}
+			
+		// }
+
+		@include desktop-sm-min {
+		  
+			&:hover {
+				box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
 			}
+		}
+		
 	}
 
 }
@@ -60,10 +89,12 @@ img.mfp-img {
 }
 
 .mfp-title {
-	background: $gradient-reverse;
+	background: $white;
 	padding: 40px;
 	margin-top: 20px;
 	margin-bottom: 0;
+	color: $dark-gray;
+
 	ul {
 		padding: 0;
 	}
@@ -71,19 +102,16 @@ img.mfp-img {
 	li {
 		list-style: none;
 		padding: 10px 0;
+		color: $dark-gray;
+		font-weight: 600;
 
 		span {
-			font-family: 'Montserrat', sans-serif;
-			font-weight: 700;
 			padding-right: 10px;
 		}
 
 		a {
 			text-transform: none;
-
-			&:hover {
-				color: $color3;
-			}
+			color: $color3;
 		}
 	}
 }
