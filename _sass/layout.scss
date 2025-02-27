@@ -27,7 +27,7 @@ h3 {
 	line-height: 1.1;
 }
 h1 {
-	font-size: clamp(24px, 15rem, 124px);
+	font-size: clamp(20px, 15rem, 124px);
 	a,
 	a:visited {
 		text-decoration: none;
@@ -65,7 +65,7 @@ a:hover {
 }
 
 main {
-	padding: 84px 32px 0;
+	padding: 84px 24px 0;
 
 	@include tablet-min {
 		padding: 64px 64px 0;
