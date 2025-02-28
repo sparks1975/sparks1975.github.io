@@ -30,13 +30,13 @@
         "img": "img/gallery/bhd.jpg",
         "title": "The Brooklyn Hot Dog Company",
         "role": "Development/Implementation",
-        "technology": "HTML, SCSS, Shopify, Liquid",
-        "link": "http://brooklynhotdogcompany.com",
-        "link_label": "brooklynhotdogcompany.com",
-        "alt_text": "The Brooklyn Hot Dog Company"
+        "technology": "HTML, SCSS, Branding, JS",
+        "link": "https://albrightplasticsurgery.com/",
+        "link_label": "albrightplasticsurgery.com",
+        "alt_text": "Albright Plastic Surgery"
     },
     {
-        "img": "img/gallery/bhd2.jpg",
+        "img": "img/gallery/albright.jpg",
         "title": "The Brooklyn Hot Dog Company",
         "role": "Development/Implementation",
         "technology": "HTML, SCSS, Shopify, Liquid",
