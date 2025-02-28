@@ -16,6 +16,9 @@ body {
 	transition: right 1s;
 	color: $dark-gray;
 	background: $white;
+	background-image: radial-gradient(transparentize($dark-gray, .6) 1px, transparent 0);
+  	background-size: 40px 40px;
+  	background-position: -19px -19px;
 
 	@include tablet-min {
 		font-size: 1.1rem;
